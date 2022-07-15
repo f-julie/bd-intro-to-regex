@@ -1,0 +1,29 @@
+FIRST SHIFT
+======= Captain Ahab ========
+N 10.2min 45.0knots
+W 20.5min 25.6knots
+S 3.4min 20.2knots
+SW 6.8min 25.4knots
+
+======= Captain Sparrow =======
+SW 6.8min 25.4knots
+W 16.8min 32.1knots
+S 9.3min 18.7knots
+
+
+======= Captain Hook =======
+W 10.1min 20.7knots
+S 14.2min 18.9knots
+SE 2.5min 17.1knots
+
+SECOND SHIFT
+
+======= Captain Ahab ========
+N 3.2min 14.0knots
+W 0.55min 9.6knots
+
+======= Captain Hook =======
+S 15.18min 38.1knots
+
+======= Captain Sparrow =======
+SW 16.8min 11.2knots
