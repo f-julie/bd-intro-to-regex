@@ -29,22 +29,27 @@ public class App {
 
     public List<String> splitLines(String rawHeadings) {
         // TODO: implement
+        return null;
     }
 
     public List<String> filterHeadingsFromLines(List<String> lines) {
         // TODO: implement
+        return null;
     }
 
     public Heading buildHeadingFromHeadingString(String headingString) {
         // TODO: implement
+        return null;
     }
 
     public List<Heading> getHeadingsFromHeadingStrings(List<String> headingStrings) {
         // TODO: implement
+        return null;
     }
 
     public float computeTotalDistanceTraveledInMiles(List<Heading> headings) {
         // TODO: implement
+        return 0.0f;
     }
 
     public static void main(String[] args) {
