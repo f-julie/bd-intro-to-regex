@@ -1,0 +1,9 @@
+======= Captain Ahab ========
+N 3.2min 14.0knots
+W 0.55min 9.6knots
+
+======= Captain Hook =======
+S 15.18min 38.1knots
+
+======= Captain Sparrow =======
+SW 16.8min 11.2knots
