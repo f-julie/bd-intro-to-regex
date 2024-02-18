@@ -60,13 +60,13 @@ public class App {
 
     public Heading buildHeadingFromHeadingString(String headingString) {
         // TODO: implement
-        String headingRegexWithGroups = "([NESW]{1,2}\\s()\\d+\\.\\d+)min\\s(\\d+\\.\\d+)knots";
+        String headingRegexWithGroups = "(?<direction>[NESW]{1,2})\\s(?<time>\\d+\\.\\d+)min\\s(?<speedInKnots>\\d+\\.\\d+)knots";
         Pattern p = Pattern.compile(headingRegexWithGroups);
         Matcher m = p.matcher(headingString);
         if (m.matches()) {
-            String direction = m.group(1);
-            float time = Float.parseFloat(m.group(2));
-            float speedInKnots = Float.parseFloat(m.group(3));
+            String direction = m.group("direction");
+            float time = Float.parseFloat(m.group("time"));
+            float speedInKnots = Float.parseFloat(m.group("speedInKnots"));
             return new Heading(direction, time, speedInKnots);
         } else {
             throw new RuntimeException("Unable to extract the required values from " + headingString);
